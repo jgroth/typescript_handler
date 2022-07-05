@@ -1,0 +1,17 @@
+<div class="doc doc-object doc-class">
+    <h2 class="doc doc-object-name doc-class-name">
+        {{ class.name }}
+    </h2>
+
+    <p>{{ summary }}</p>
+    <h3>Example</h3>
+    {%- filter highlight(language="typescript") -%}
+        {{ '\n'.join(class.comment.blockTags[0].content[0].text.split('\n')[1:-1]) }}
+    {%- endfilter -%}
+
+    <h3>Methods</h3>
+    {% for method in methods -%}
+        <h4>{{ method.name }}</h4>
+        <p>{{ method.signatures[0].comment.summary[0].text }}</p>
+    {% endfor -%}
+</div>

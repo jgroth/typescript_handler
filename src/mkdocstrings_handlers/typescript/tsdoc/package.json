@@ -1,0 +1,10 @@
+{
+  "name": "mkdocstrings-typescript",
+  "version": "1.0.0",
+  "description": "A Typescript handler for mkdocstrings.",
+  "author": "Johan Groth",
+  "license": "MIT",
+  "devDependencies": {
+    "typedoc": "^0.23.2"
+  }
+}
