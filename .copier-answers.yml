@@ -1,0 +1,19 @@
+# Changes here will be overwritten by Copier
+_commit: 0.1.1
+_src_path: gh:mkdocstrings/handler-template
+author_email: johan.groth@lime.tech
+author_fullname: Johan Groth
+author_username: jgroth
+copyright_date: '2022'
+copyright_holder: Johan Groth
+copyright_holder_email: johan.groth@lime.tech
+copyright_license: MIT License
+language: TypeScript
+project_description: A Typescript handler for mkdocstrings.
+project_name: mkdocstrings-typescript
+python_package_distribution_name: mkdocstrings-typescript
+python_package_import_name: typescript
+repository_name: mkdocstrings-typescript
+repository_namespace: jgroth
+repository_provider: github.com
+
